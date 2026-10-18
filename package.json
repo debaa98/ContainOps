@@ -1,0 +1,16 @@
+{
+  "name": "containops",
+  "version": "0.1.0",
+  "description": "Bounded incident containment: agents propose, humans approve, tools execute and verify.",
+  "private": true,
+  "main": "src/system.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "demo": "node src/demo.js",
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
